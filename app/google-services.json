@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "398855833499",
+    "firebase_url": "https://pigeonpeadiseasedetection-default-rtdb.firebaseio.com",
+    "project_id": "pigeonpeadiseasedetection",
+    "storage_bucket": "pigeonpeadiseasedetection.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398855833499:android:16c00366238a2806a1433e",
+        "android_client_info": {
+          "package_name": "com.prabhatkch.sabrasta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398855833499-viqud2ph774nobj822grjva994ea63ad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prabhatkch.sabrasta",
+            "certificate_hash": "f1f22c28b48558e37e12515df952911b0998396b"
+          }
+        },
+        {
+          "client_id": "398855833499-2n9f580m3k5kebtck19ncq9a1s5var80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj_uREqViDFLL4Svsx0TxqAMxT9UWw3dE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398855833499-2n9f580m3k5kebtck19ncq9a1s5var80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

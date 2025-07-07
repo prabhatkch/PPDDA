@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.prabhatkch.sabrasta">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/plant_illust"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/content_bg"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HomePage"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name="com.prabhatkch.sabrasta.pest_Detection"
+            android:exported="false" />
+        <activity
+            android:name=".new_cam_page"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.prabhatkch.sabrasta.menupage"
+            android:exported="false" />
+        <activity
+            android:name="com.prabhatkch.sabrasta.Authentication"
+            android:exported="false" />
+        <activity
+            android:name="com.prabhatkch.sabrasta.CamActive"
+            android:exported="false" />
+        <activity
+            android:name="com.prabhatkch.sabrasta.MainActivity"
+            android:exported="false" /> <!-- ///////////////////////////////////////////////////////// -->
+        <activity
+            android:name="com.prabhatkch.sabrasta.AboutActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.prabhatkch.sabrasta.ContactusActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.prabhatkch.sabrasta.ProfileActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.prabhatkch.sabrasta.HomeActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.prabhatkch.sabrasta.ForgotPassword"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.prabhatkch.sabrasta.LoginActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.prabhatkch.sabrasta.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.prabhatkch.sabrasta.Welcome"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
